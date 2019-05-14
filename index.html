@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Landing Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://img.icons8.com/nolan/64/000000/document.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body>
+        <header id="header">
+          <div id="header__container">
+            <div id="header__logo">
+              <h1>landing page</h1>
+            </div>
+            <nav id="header__nav">
+              <ul id="header__nav-list">
+                <li><a href="#banner">banner</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#reviews">reviews</a></li>
+                <li><a href="#footer">contact</a></li>
+              </ul>
+            </nav> 
+          </div>
+          <div id="hidden-nav">
+            <h1 class="hidden-heading">landing page</h1>
+            <select onchange="location = this.value;">
+              <option value="" disabled selected>-select-</option>
+              <option value="#banner">banner</option>
+              <option value="#services">services</option>
+              <option value="#reviews">reviews</option>
+              <option value="#footer">contact</option>
+            </select>
+          </div> 
+        </header>
+        <section id="banner"><!--!______________________________________-BANNER___________________________________________________________-->
+          <div id="banner__container">
+            <h2 id="banner__heading">this is a banner section</h2>
+            <p id="banner__par">Et sunt voluptate aliquip sunt voluptate deserunt cupidatat aliquip consectetur dolor tempor cillum voluptate.</p>
+          </div>
+        </section>
+        <section id="services"><!--!______________________________________-SERVICES___________________________________________________________-->
+          <div id="services__container">
+            <div id="services__heading-par-container">
+              <h2>this is a service section</h2>
+              <p>In cillum occaecat pariatur tempor sit elit est labore ex.</p>
+            </div>
+            <div id="services__flex-container">
+              <div class="services__single-service-container">
+                <a href="#"><i class="fas fa-address-card"></i></a>
+                <h3>service</h3>
+                <p>Aliqua fugiat culpa commodo Lorem nisi incididunt elit cupidatat. Aliqua mollit cupidatat esse aliqua aliquip excepteur nostrud do ut consequat voluptate nostrud et officia.</p>
+              </div>
+              <div class="services__single-service-container">
+                <a href="#"><i class="fas fa-adjust"></i></a>
+                <h3>service</h3>
+                <p>Aliqua fugiat culpa commodo Lorem nisi incididunt elit cupidatat. Enim in culpa et laborum sint occaecat mollit pariatur non eu laborum quis.</p>
+              </div>
+              <div class="services__single-service-container">
+                <a href="#"><i class="fab fa-adversal"></i></a>
+                <h3>service</h3>
+                <p>Aliqua fugiat culpa commodo Lorem nisi incididunt elit cupidatat. Pariatur ullamco minim nostrud esse id ex fugiat. Adipisicing pariatur amet ipsum consequat dolore id pariatur cupidatat reprehenderit sunt nisi.</p>
+              </div>
+              <div class="services__single-service-container">
+                <a href="#"><i class="fas fa-anchor"></i></a>
+                <h3>service</h3>
+                <p>Aliqua fugiat culpa commodo Lorem nisi incididunt elit cupidatat. Mollit dolor ad ex irure Lorem magna magna culpa dolore anim laborum enim.</p>
+              </div>
+              <div class="services__single-service-container">
+                <a href="#"><i class="fas fa-archive"></i></a>
+                <h3>service</h3>
+                <p>Aliqua fugiat culpa commodo Lorem nisi incididunt elit cupidatat. Et eu culpa deserunt minim labore amet anim. Voluptate in aute reprehenderit irure cillum mollit sunt tempor incididunt do commodo.</p>
+              </div>
+              <div class="services__single-service-container">
+                <a href="#"><i class="fab fa-audible"></i></a>
+                <h3>service</h3>
+                <p>Aliqua fugiat culpa commodo Lorem nisi incididunt elit cupidatat. Commodo cillum cupidatat sunt sint anim. Mollit magna duis commodo elit ex.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="second-banner"><!--!______________________________________-SECOND BANNER___________________________________________________________-->
+          <div id="second-banner__container">
+            <h2>this is a second banner</h2>
+            <p>Dolore veniam eiusmod duis tempor. Aliquip duis aute quis laborum consectetur nostrud ea occaecat. Anim excepteur culpa qui aute. Lorem non commodo ad incididunt ut exercitation. Do minim duis laboris nulla minim minim reprehenderit pariatur duis nostrud. Pariatur pariatur minim deserunt culpa amet dolore quis sunt id sit elit.</p>
+          </div>
+        </section>
+        <section id="reviews"><!--!______________________________________-REVIEWS___________________________________________________________-->
+          <div id="reviews__container">
+            <h2>customer reviews</h2>
+            <p>Reprehenderit esse sit proident excepteur sint ex aliqua irure. Anim eiusmod fugiat est est nisi. Elit qui veniam magna enim labore consectetur. Elit sint exercitation proident nulla incididunt enim mollit. Ipsum reprehenderit esse fugiat voluptate.</p>
+          </div>
+          <div id="reviews__flex-container">
+            <div class="reviews__single-review">
+              <p>Quis culpa exercitation esse irure sunt aliquip magna labore. Excepteur sunt aliquip dolore ut magna enim.</p>
+              <div class="single-review__img-span">
+                <img src="images/faces/1.jpg" alt="face">
+                <p><span>Jane Doe</span>CEO - ABC Inc.</p>
+              </div>
+            </div>
+            <div class="reviews__single-review">
+              <p>Mollit voluptate ex labore ea. Fugiat esse anim sint eu ut amet aliqua do elit ut.</p>
+              <div class="single-review__img-span">
+                <img src="images/faces/2.jpg" alt="face">
+                <p><span>Jane Doe</span>CEO - ABC Inc.</p>
+              </div>
+            </div>
+            <div class="reviews__single-review">
+              <p>Incididunt ea deserunt quis quis. Commodo veniam tempor nulla adipisicing eiusmod excepteur aute enim est quis.</p>
+              <div class="single-review__img-span">
+                <img src="images/faces/3.jpg" alt="face">
+                <p><span>Jon Doe</span>CEO - ABC Inc.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="footer"><!--!______________________________________________FOOTER_____________________________________________________________-->
+          <div id="footer__container">
+            <div id="footer__container-par">
+              <h3>Quis Lorem non veniam aliquip deserunt aliquip reprehenderit elit deserunt exercitation excepteur dolor.</h3>
+              <p>Consequat in id dolor laborum mollit excepteur. Pariatur elit mollit adipisicing anim eiusmod irure amet officia occaecat non fugiat cillum. Qui adipisicing aliqua excepteur dolor ad nisi veniam est officia fugiat. Elit ullamco laboris officia dolor sint incididunt reprehenderit quis consectetur elit. Amet nulla cupidatat sit magna esse dolor do enim excepteur occaecat excepteur eiusmod aliqua enim. Dolor ipsum proident adipisicing consectetur ad mollit quis eiusmod nostrud aliqua do. Esse ad ullamco quis nulla.</p>
+            </div>
+            <div id="footer__container__link-list">
+              <h4>Et minim Lorem</h4>
+              <ul id="footer__link-list">
+                <li><a href="">Ullamco qui irure</a></li>
+                <li><a href="">Adipisicing sint</a></li>
+                <li><a href="">Officia veniam</a></li>
+                <li><a href="">Commodo officia</a></li>
+              </ul>
+            </div>
+            <div id="footer__container__contact-list">
+              <h4>Non tempor voluptate</h4>
+              <ul id="footer__contact-list">
+                <li><a href=""><i class="fab fa-twitter-square"></i>twitter</a></li>
+                <li><a href=""><i class="fab fa-facebook-square"></i>facbook</a></li>
+                <li><a href=""><i class="fab fa-instagram"></i>instagram</a></li>
+                <li><a href=""><i class="fab fa-github-square"></i>github</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="footer__copyright">
+            <p>&copy; This is just a landing site example</p>
+          </div>
+        </section>
+    </body>
+</html>
